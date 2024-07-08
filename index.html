@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Food Delivery Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="myContainer">
+        <h1 class="myTitle">Random Pet Food Delivery Service</h1>
+        <button class="myButton" onclick="generateRandomService()">Find a Service</button>
+        <div class="myResult" id="myResult">
+            <img id="myServiceImage" class="myServiceImage" src="" alt="Service Image">
+            <p class="myServiceName" id="myServiceName"></p>
+            <p class="myServiceDescription" id="myServiceDescription"></p>
+            <p class="myServiceRating" id="myServiceRating"></p>
+            <button class="myBookButton" onclick="bookService()">Book</button>
+            <p class="myBookingMessage" id="myBookingMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
